@@ -18,3 +18,4 @@ class CoronaSpider(scrapy.Spider):
             item["Total_Case"] = t.xpath(".//td[2]/text()").get()
 
             yield item
+#
